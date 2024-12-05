@@ -1,0 +1,36 @@
+{
+  "type": "module",
+  "name": "smartsync",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "ewelink-api-next": "^1.0.4",
+    "fs": "^0.0.1-security",
+    "inquirer": "^12.0.1",
+    "puppeteer": "^23.7.1",
+    "react": "^18.3.1",
+    "smartsync": "file:"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
